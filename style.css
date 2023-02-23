@@ -1,0 +1,144 @@
+:root {
+    --header: rgb(42, 67, 208);
+    --line: grey 1px solid;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.con1 {
+    height: 100%;
+    width: 20%;
+    padding: 2%;
+    border: #123 solid 1px;
+}
+
+.img{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 1%;
+    border-bottom: var(--line);
+}
+
+img {
+    width: 40%;
+}
+.skills{
+    height: fit-content;
+    border-bottom: var(--line);
+}
+ul{
+    padding: 1% 10%;
+    margin-bottom: 1%;
+    height: fit-content;
+    width: 100%;
+    
+}
+li{
+   height: fit-content;
+   width: fit-content; 
+}
+.github,.twitter{
+    display: flex; 
+    height: fit-content;  
+    margin-bottom: 2%;
+}
+.links{
+    height: fit-content;
+    margin-bottom: 2%;
+    border-bottom: var(--line);
+}
+.img-links{
+    width: 14%;
+    height: 14%;
+}
+div a{
+font-size: 1.325rem;
+}
+
+
+
+.con2 {
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+    border: #000 solid 1px;
+}
+.name{
+    width: 100%;
+    height: fit-content;
+    border-bottom: var(--line);
+
+}
+h1 {
+    font-size: 500%;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+.below-name{
+    font-size: 1.125rem;
+    padding-left: 5% ;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 2%;
+}
+.header {
+    height: fit-content;
+    color: var(--header);
+}
+
+.div-text {
+    height: fit-content;
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: var(--line);
+}
+
+label {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.block-text {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1em;
+}
+.education{
+    height: fit-content;
+}
+.coll-name{
+    height:fit-content;
+    width: 100%;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.month{
+    font-weight: 0.5rem;
+    font-size: 0.95rem;
+    height: fit-content;
+    opacity: 0.5;
+}
+.last-p{
+    height: fit-content;
+    font-size: 1.1rem;
+}
