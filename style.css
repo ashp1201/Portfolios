@@ -26,12 +26,11 @@ body {
     height: 100%;
     width: 20%;
     padding: 2%;
-    border: #123 solid 1px;
+
 }
 
-.img{
+.img {
     height: 25%;
-    width: 100%;
     display: flex;
     justify-content: center;
     padding: 2% 1%;
@@ -41,66 +40,79 @@ body {
 img {
     width: 40%;
 }
-.skills{
+
+.skills {
     height: fit-content;
     border-bottom: var(--line);
 }
-ul{
+
+ul {
     padding: 1% 10%;
     margin-bottom: 1%;
     height: fit-content;
     width: 100%;
-    
+
 }
-li{
-   height: fit-content;
-   width: fit-content; 
+
+li {
+    height: fit-content;
+    width: fit-content;
 }
-.github,.twitter{
-    display: flex; 
-    height: fit-content;  
+
+.github,
+.twitter {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
     margin-bottom: 2%;
 }
-.links{
+
+.links {
     height: fit-content;
     margin-bottom: 2%;
     border-bottom: var(--line);
 }
-.img-links{
+
+.img-links {
     width: 14%;
     height: 14%;
 }
-div a{
-font-size: 1.325rem;
+
+div a {
+    font-size: 1.325rem;
 }
 
 
 
 .con2 {
-    width: 80%;
+    width: 78%;
     height: 100%;
     padding: 2%;
-    border: #000 solid 1px;
+
 }
-.name{
+
+.name {
     width: 100%;
     height: fit-content;
     border-bottom: var(--line);
 
 }
+
 h1 {
     font-size: 500%;
     margin: 0;
     width: fit-content;
     height: fit-content;
 }
-.below-name{
+
+.below-name {
     font-size: 1.125rem;
-    padding-left: 5% ;
+    padding-left: 5%;
     width: fit-content;
     height: fit-content;
     margin-bottom: 2%;
 }
+
 .header {
     height: fit-content;
     color: var(--header);
@@ -114,7 +126,7 @@ h1 {
 }
 
 label {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 600;
 }
 
@@ -123,22 +135,67 @@ label {
     width: fit-content;
     font-size: 1em;
 }
-.education{
+
+.education {
     height: fit-content;
 }
-.coll-name{
-    height:fit-content;
+
+.coll-name {
+    height: fit-content;
     width: 100%;
     font-size: xx-large;
     font-weight: 600;
 }
-.month{
+
+.month {
     font-weight: 0.5rem;
     font-size: 0.95rem;
     height: fit-content;
     opacity: 0.5;
 }
-.last-p{
+
+.last-p {
     height: fit-content;
     font-size: 1.1rem;
 }
+
+/* TAb */
+@media only screen and (min-width:567px) and (max-width:770px) {
+.con1{
+    width: fit-content;
+}
+.img{
+    height: 15%;
+}
+.con2{
+    width: fit-content;
+}
+.con2 h1{
+    font-size: 300%;
+}
+}
+
+/* TAb */
+@media only screen and (min-width:200px) and (max-width:567px) {
+    .con1{
+        width: fit-content;
+    }
+    .img{
+        height: 15%;
+    }
+    .con2{
+        width: fit-content;
+    }
+    .con2 h1{
+        font-size: 300%;
+    }
+    .container{
+        height: fit-content;
+    }
+    }
+
+@media only screen and (min-width:770px) and (min-height:1000px) {
+        .img{
+            height: 10%;
+        }
+    }
